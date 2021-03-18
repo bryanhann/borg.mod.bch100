@@ -1,0 +1,3 @@
+bch__system_is_darwin () { echo ${OSTYPE} | grep -q darwin; }
+bch__system_is_linux  () { echo ${OSTYPE} | grep -q linus; }
+
