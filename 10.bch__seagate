@@ -1,0 +1,9 @@
+# USES:
+#     borg-find3-suffix
+
+bch__seagate () {
+    # echo the root of the SeagateBlue drive.
+    borg-find3-suffix /SeagateBlue
+}
+
+
